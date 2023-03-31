@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9134444029602750361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9134444029602750367}
+  - component: {fileID: 9134444029602750360}
+  m_Layer: 0
+  m_Name: SilverDagger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9134444029602750367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134444029602750361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9134444029602750360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134444029602750361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8115d13775989147ae3d2fe4c47b466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Silver Dagger
+  itemSprite: {fileID: 21300000, guid: 17b3e11126fa2a94394208f01e386c4e, type: 3}
+  itemID: 2
+  category: 5
+  rarity: 1
+  itemInfo: A dagger made out of silver
+  itemCount: 1
+  threeDObject: {fileID: 8172985660834251459, guid: 1dd710cea6c63014fae10d81584b57bc, type: 3}
+  powerBonus: 10
+  agilityBonus: 0
+  staminaBonus: 0

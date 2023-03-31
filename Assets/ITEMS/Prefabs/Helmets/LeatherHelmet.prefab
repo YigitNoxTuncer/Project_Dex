@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6519510052650890988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6519510052650890986}
+  - component: {fileID: 6519510052650890989}
+  m_Layer: 0
+  m_Name: LeatherHelmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6519510052650890986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519510052650890988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6519510052650890989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519510052650890988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8115d13775989147ae3d2fe4c47b466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Leather Helmet
+  itemSprite: {fileID: 21300000, guid: 7dd6062f80206ca4f9a4b9f1dac074ea, type: 3}
+  itemID: 1
+  category: 0
+  rarity: 0
+  itemInfo: Leather helmet made of cured leathers
+  itemCount: 1
+  threeDObject: {fileID: 4839373126502761196, guid: 4ac85f038c2f4984d9a4e170efd4394b, type: 3}
+  powerBonus: 0
+  agilityBonus: 5
+  staminaBonus: 0

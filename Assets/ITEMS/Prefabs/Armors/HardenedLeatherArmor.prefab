@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6098503662568150047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6098503662568150041}
+  - component: {fileID: 6098503662568150046}
+  m_Layer: 0
+  m_Name: HardenedLeatherArmor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6098503662568150041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098503662568150047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6098503662568150046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6098503662568150047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8115d13775989147ae3d2fe4c47b466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Hardened Leather Armor
+  itemSprite: {fileID: 21300000, guid: dbd4e4e662a786b499632f4805787551, type: 3}
+  itemID: 2
+  category: 1
+  rarity: 1
+  itemInfo: Imporved leather armor with hardened leather
+  itemCount: 1
+  threeDObject: {fileID: 6108580643064672004, guid: a2be704f49cc69d4fb91c9c0b66f006f, type: 3}
+  powerBonus: 0
+  agilityBonus: 5
+  staminaBonus: 10
